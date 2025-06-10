@@ -4,6 +4,7 @@ pyproject.toml
 shauver_omics/__init__.py
 shauver_omics/bm_preproc.py
 shauver_omics/genomics_functions.py
+shauver_omics/kmer_index.py
 shauver_omics.egg-info/PKG-INFO
 shauver_omics.egg-info/SOURCES.txt
 shauver_omics.egg-info/dependency_links.txt
