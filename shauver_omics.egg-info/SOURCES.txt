@@ -2,6 +2,7 @@ LICENSE
 README.md
 pyproject.toml
 shauver_omics/__init__.py
+shauver_omics/bm_preproc.py
 shauver_omics/genomics_functions.py
 shauver_omics.egg-info/PKG-INFO
 shauver_omics.egg-info/SOURCES.txt
