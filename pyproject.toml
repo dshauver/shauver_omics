@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shauver_omics"
+version = "0.1.1"
+authors = [
+    { name = "Dan Shauver", email = "dshauver@gmail.com" },
+]
+description = "A package containing useful *omics functions"
+readme = "README.md"
+requires-python = ">=3.6"
+license = { file = "LICENSE" }
+dependencies = [
+    # List any dependencies, e.g., "numpy>=1.21"
+]
+
+[project.urls]
+Homepage = "https://github.com/dshauver/shauver_omics.git"

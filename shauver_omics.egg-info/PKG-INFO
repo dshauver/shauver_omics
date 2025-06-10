@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: shauver_omics
+Version: 0.1.1
+Summary: A package containing useful *omics functions
+Author-email: Dan Shauver <dshauver@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2025 Dan Shauver
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy...
+Project-URL: Homepage, https://github.com/dshauver/shauver_omics.git
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# shauver_omics Package
+A collection of useful Python functions for *omics analysis.
+
+## Installation
+```bash
+pip install shauver_omics

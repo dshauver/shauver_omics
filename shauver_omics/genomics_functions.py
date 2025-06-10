@@ -54,7 +54,7 @@ def naive_with_rc(p, t):
         return occurrences
     return occurrences + occurrences_rc
 
-def naive_2mm(p, t, err_count):
+def naive_Nmm(p, t, err_count):
     occurences = []
     for i in range(len(t) - len(p) + 1):  # loop over alignments
         match = True
@@ -82,21 +82,21 @@ def createHist(qualities):
     return hist
 
 def find_lowqual_reads(quals):
-    seq_length = len(quals[0])
-    num_seqs = len(quals)
+    read_length = len(quals[0])
+    num_reads = len(quals)
 
     # Initialize a list to store the sum of quality scores for each position
-    sum_scores = [0] * seq_length
+    sum_scores = [0] * read_length
 
     # For each position
-    for pos in range(seq_length):
+    for pos in range(read_length):
         total_score = 0
-        for seq in quals:
-            char = seq[pos]
+        for read in quals:
+            char = read[pos]
             score = phred33ToQ(char)
             total_score += score
         # Compute the average score for this position
-        sum_scores[pos] = total_score / num_seqs
+        sum_scores[pos] = total_score / num_reads
     
     # Find the position with the minimum average score
     min_score = min(sum_scores)
