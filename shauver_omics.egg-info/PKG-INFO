@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: shauver_omics
-Version: 0.1.1
+Version: 0.1.2
 Summary: A package containing useful *omics functions
 Author-email: Dan Shauver <dshauver@gmail.com>
 License: MIT License
